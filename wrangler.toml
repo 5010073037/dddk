@@ -13,13 +13,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 # routes = [
-#   { pattern = "docker.ailfox.com", custom_domain = true },
-#   { pattern = "quay.ailfox.com", custom_domain = true },
-#   { pattern = "gcr.ailfox.com", custom_domain = true },
-#   { pattern = "k8s-gcr.ailfox.com", custom_domain = true },
-#   { pattern = "k8s.ailfox.com", custom_domain = true },
-#   { pattern = "ghcr.ailfox.com", custom_domain = true },
-#   { pattern = "cloudsmith.ailfox.com", custom_domain = true },
+#   { pattern = "docker.unmudns.xyz", custom_domain = true },
+#   { pattern = "quay.unmudns.xyz", custom_domain = true },
+#   { pattern = "gcr.unmudns.xyz", custom_domain = true },
+#   { pattern = "k8s-gcr.unmudns.xyz", custom_domain = true },
+#   { pattern = "k8s.unmudns.xyz", custom_domain = true },
+#   { pattern = "ghcr.unmudns.xyz", custom_domain = true },
+#   { pattern = "cloudsmith.unmudns.xyz", custom_domain = true },
 # ]
 
 [env.production.vars]
@@ -28,7 +28,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-# route = { pattern = "docker-staging.ailfox.com", custom_domain = true }
+# route = { pattern = "docker-staging.unmudns.xyz", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
